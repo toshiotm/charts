@@ -52,6 +52,8 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    chart-js-rails (0.0.9)
+      railties (> 3.1)
     coderay (1.1.1)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
@@ -116,6 +118,7 @@ GEM
     multi_json (1.11.3)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    pdfkit (0.8.2)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -218,6 +221,7 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
+    wkhtmltopdf (0.1.2)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
@@ -228,6 +232,7 @@ DEPENDENCIES
   awesome_print
   bcrypt (~> 3.1.7)
   byebug
+  chart-js-rails
   coffee-rails (~> 4.1.0)
   faker
   hirb
@@ -238,6 +243,7 @@ DEPENDENCIES
   libv8
   migration_comments
   minitest-rails-capybara
+  pdfkit
   pry-byebug
   pry-coolline
   pry-rails
@@ -257,6 +263,7 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+  wkhtmltopdf
 
 BUNDLED WITH
    1.10.5
