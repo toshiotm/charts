@@ -60,14 +60,6 @@ gem 'rails-flog'
 
 gem 'migration_comments'
 
-# Extend point
-gem 'chart-js-rails'
-
-## Html2PDF
-gem 'pdfkit'
-gem 'wkhtmltopdf'
-
-
 group :development, :test do
     gem 'pry-rails'
     gem 'pry-coolline'
